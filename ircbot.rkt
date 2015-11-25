@@ -1,11 +1,5 @@
 #lang racket/base
 
-;; TODO
-;; 1) spin up a thread to send to IRC - main program writes to thread mailbox
-
-;; 2) use sync/timeout for listening and timeout after N seconds, where N
-;;    > than the time between pings from IRC
-
 ;; ircbot.rkt
 ;;
 ;; Simple IRC bot
